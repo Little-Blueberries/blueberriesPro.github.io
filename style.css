@@ -1,0 +1,79 @@
+/* Background and some setting */
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/purple-blue.jpg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+/* Header */
+header {
+     text-align: center;
+     line-height: 5px;
+     margin-top: 75px;
+}
+
+#title {
+     font-weight: bold;
+     font-size: 5vw;
+     color: white;
+     font-family: "Montserrat Black", "Segoe UI", serif;
+}
+
+#headerD {
+     color: gray;
+     font-style: italic;
+     font-family: "Segoe UI";
+     font-size: 1.5em;
+}
+
+/* Main */
+main {
+     background-color: rgba(255, 255, 255, 0.2);
+     margin: 2.5em;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     align-content: center;
+     justify-content: center;
+}
+
+/* Default setting for section */
+section {
+     background-color: rgba(255, 255, 255, 0.3);
+     display: grid;
+     place-items: center;
+     height: 30em;
+     width: 17.5em;
+     text-align: center;
+     margin: 1em;
+     padding: 0.05em 3em;
+     font-family: "Segoe UI";
+     transition: 1s all;
+     cursor: pointer;
+}
+
+h2, p {
+     color: black;
+}
+
+section:hover {
+     background-color: rgba(255, 255, 255, 0.5);
+     font-size: 1.1em;
+}
+
+a, a * {
+     text-decoration: none;
+}
+
+/* Faster style */
+.bold {font-weight: bold;}
+
+.description {
+     color: rgb(0, 0, 0, 0.75);
+     font-style: italic;
+     margin-top: 0;
+}
